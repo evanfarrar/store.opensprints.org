@@ -1,0 +1,1 @@
+Order.all(:conditions => {:state => "new"}).select{|order| order.line_items.any? {|li| li.product.id == 1} }.map(&:ship_address).each {|addy| puts addy.full_name,addy.address1,addy.address2,"#{addy.city}, #{addy.state}, #{addy.zipcode}",addy.phone; puts; puts}

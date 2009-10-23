@@ -1,0 +1,9 @@
+log/*
+tmp/**/*
+**/*.swp
+*.swp
+db/*.sqlite3
+public/system
+*.DS_Store
+*.swp
+!.keep
