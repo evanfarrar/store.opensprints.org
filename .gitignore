@@ -3,6 +3,7 @@ tmp/**/*
 **/*.swp
 *.swp
 db/*.sqlite3
+db/*.sqlite3.db
 public/system
 *.DS_Store
 *.swp

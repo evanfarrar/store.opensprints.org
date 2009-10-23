@@ -46,5 +46,8 @@ ul.thumbnails li img {
 .product-listing li a.info {
   width: 250px; }
 
-.price.selling {
+.product-listing .price.selling {
+  color: #000000; }
+
+#product-details .price.selling {
   color: #FFFFFF; }
